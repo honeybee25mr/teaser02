@@ -1200,7 +1200,7 @@ section:after {
     margin: 0 auto
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 599px) {
 
     .wrapper {
         max-width: 90%;
@@ -1301,7 +1301,7 @@ section:after {
 
 }
 
-@media only screen and (min-width: 576px) {
+@media only screen and (min-width: 900px) {
     .wrapper {
         max-width: 90%;
     }
@@ -1312,16 +1312,6 @@ section:after {
 
 }
 
-@media only screen and (min-width: 768px) {
-    .wrapper {
-        max-width: 90%;
-    }
-
-    .wrapper-small {
-        max-width: 88%;
-    }
-
-}
 
 @media only screen and (min-width: 992px) {
     .wrapper {
@@ -5787,11 +5777,9 @@ span.fraction-line {
     transform: scale(1)
 }
 
-
 .showcase-fullscreen-slideshow .showcase-project.project_0 {
     display: block;
 }
-
 
 .showcase-fullscreen-slideshow .pd_word {
 
@@ -5875,8 +5863,6 @@ span.fraction-line {
     padding: 0 50px;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-
-
 }
 
 .showcase-cards .project-meta > div {
@@ -10697,7 +10683,7 @@ span.test-prev::after {
 /** Phones
 ------------------------------ */
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 599px) {
 
     .showcase-minimal-list.fullscreen .sml-images {
         max-width: 100%;
@@ -10961,11 +10947,11 @@ span.test-prev::after {
     }
 
     .nayla-clients-grid .client a img {
-        max-width: 75px;
+        max-width: 135px;
     }
 
     .showcase-carousel .nayla-video {
-        height: 100%
+        height: 100%;
     }
 
     .showcase-carousel .project-title {
@@ -10973,7 +10959,7 @@ span.test-prev::after {
     }
 
     .mobile-align-left {
-        text-align: left
+        text-align: left;
     }
 
     .post-meta > div:last-child {
@@ -11123,7 +11109,7 @@ span.test-prev::after {
     }
 
     .text-wrapper br {
-        display: none
+        /* display: none */
     }
 
     .text-wrapper br.show-mobile {
@@ -11140,7 +11126,7 @@ span.test-prev::after {
 
 
     .section {
-        padding-top: 100px;
+        padding-top: 200px;
         margin-bottom: 50px;
     }
 
@@ -11325,8 +11311,8 @@ span.test-prev::after {
 
     h4,
     .text-h4 {
-        font-size: 26.56px;
-        line-height: 38px;
+        font-size: 24px;
+        line-height: 30px;
         margin-left: -1px;
         font-weight: normal;
         margin-bottom: 1em;
@@ -11334,8 +11320,8 @@ span.test-prev::after {
 
     h5,
     .text-h5 {
-        font-size: 21.25px;
-        line-height: 36px;
+        font-size: 16px;
+        line-height: 24px;
         margin: 0;
     }
 
