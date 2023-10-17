@@ -10674,9 +10674,14 @@ span.test-prev::after {
 
 }
 
+.mdisplay {
+    display: none !important;
+}
+
 /** Tablets
 ------------------------------ */
 @media (min-width: 450px) and (max-width: 900px) {}
+
 
 
 
@@ -10684,6 +10689,20 @@ span.test-prev::after {
 ------------------------------ */
 
 @media only screen and (max-width: 599px) {
+
+    .mdisplaynone {
+        display: none !important;
+    }
+    .mdisplay {
+        display: block !important;
+    }
+
+    .footer-top-wrapper {
+        margin-bottom: 0;
+    }
+    .footer-top-wrapper p {
+        font-size: .725rem;
+    }
 
     .showcase-minimal-list.fullscreen .sml-images {
         max-width: 100%;
@@ -10947,7 +10966,7 @@ span.test-prev::after {
     }
 
     .nayla-clients-grid .client a img {
-        max-width: 135px;
+        max-width: 185px;
     }
 
     .showcase-carousel .nayla-video {
@@ -11172,8 +11191,8 @@ span.test-prev::after {
     /* Clients */
 
     .nayla-clients-grid {
-        -ms-grid-columns: 1fr 50px 1fr !important;
-        grid-template-columns: 1fr 1fr !important;
+        -ms-grid-columns: 1fr !important;
+        grid-template-columns: 1fr !important;
         grid-column-gap: 50px;
         grid-row-gap: 25px;
     }
