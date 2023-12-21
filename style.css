@@ -5678,7 +5678,7 @@ span.fraction-line {
 
 .showcase-fullscreen-slideshow .project-inner {
     position: absolute;
-    top: 30%;
+    top: 75%;
     left: 0;
     width: 100%;
     -webkit-transform: translateY(-50%);
@@ -11799,3 +11799,10 @@ span.test-prev::after {
 }
 
 
+.textTransparent{
+    color: transparent;
+}
+
+.info-box-top img {
+    width: 100%;
+}
