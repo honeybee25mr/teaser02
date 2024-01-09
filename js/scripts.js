@@ -6927,7 +6927,6 @@
                             onEnter: () => headerLayoutChange(sectionLayout, false, false, false),
                             onEnterBack: () => headerLayoutChange(sectionLayout, false, false, false),
                             onLeave: () => headerLayoutChange(false, false, false, true),
-                            onLeave: () => headerLayoutChange(false, false, false, true),
                             onLeaveBack: () => headerLayoutChange(false, false, false, true)
                         });
 
@@ -8935,7 +8934,6 @@
             yPercent: -50,
             x: 0,
             y: 0,
-            rotate: 0,
             opacity: 1,
             clipPath: 'inset(0%)',
             display: 'block',

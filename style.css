@@ -7794,7 +7794,7 @@ span.active-hold {
 
 .nayla-clients-grid.bordered .client {
     height: auto;
-    outline-color: rgb(0 0 0 / 20%);
+    outline-color: transparent;
     outline-width: 1px;
     outline-style: solid;
 }
@@ -10584,6 +10584,9 @@ span.test-prev::after {
     .service-title {
         width: 80%;
         float: left
+    }
+    .morder {
+        flex-direction: column-reverse;
     }
 }
 
